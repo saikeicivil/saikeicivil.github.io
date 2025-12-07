@@ -1,0 +1,24 @@
+# Site Settings
+title: Saikei Civil
+description: Cultivating Open Infrastructure — Open-source civil engineering BIM for IFC 4.3
+url: "https://saikeicivil.org"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+
+# Theme settings (using minimal mistakes or just custom)
+# We're using a custom layout for full control
+
+# Social/Links
+github_repo: https://github.com/saikeicivil/SaikeiCivil
+linkedin: https://linkedin.com/company/saikeicivil
+
+# SEO
+author: Desert Springs Civil Engineering PLLC
+locale: en_US
+
+# Exclude from build
+exclude:
+  - README.md
+  - LICENSE
