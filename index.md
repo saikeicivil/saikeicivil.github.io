@@ -19,20 +19,6 @@ intro:
   - excerpt: '**25,000+ lines of code** · **107+ tests passing** · **Native IFC 4.3** · **Sprint 5 of 16**'
 
 feature_row:
-  - image_path: /assets/images/feature-alignment.svg
-    alt: "Horizontal Alignments"
-    title: "🛤️ Horizontal Alignments"
-    excerpt: "PI-based design with automatic tangent and curve generation following professional civil engineering workflows."
-  - image_path: /assets/images/feature-vertical.svg
-    alt: "Vertical Profiles"
-    title: "📈 Vertical Profiles"
-    excerpt: "PVI-based profiles with parabolic vertical curves, matching Civil 3D and OpenRoads methodologies."
-  - image_path: /assets/images/feature-georef.svg
-    alt: "Georeferencing"
-    title: "🌍 Georeferencing"
-    excerpt: "Survey-grade accuracy with 6,000+ coordinate reference systems via PyProj integration."
-
-feature_row2:
   - image_path: /assets/images/feature-crosssection.svg
     alt: "Cross-Sections"
     title: "📐 Cross-Sections"
@@ -50,8 +36,6 @@ feature_row2:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
-
-{% include feature_row id="feature_row2" %}
 
 ---
 
