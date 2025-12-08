@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fdf7"/>
+      <stop offset="100%" style="stop-color:#eef6ed"/>
+    </linearGradient>
+    <linearGradient id="blender-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea7600"/>
+      <stop offset="100%" style="stop-color:#d35400"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#card-bg)"/>
+  
+  <!-- Blender UI mockup -->
+  <g transform="translate(50, 50)">
+    <!-- Window frame -->
+    <rect x="0" y="0" width="500" height="300" rx="8" fill="#2d2d2d" stroke="#1a1a1a" stroke-width="2"/>
+    
+    <!-- Title bar -->
+    <rect x="0" y="0" width="500" height="28" rx="8" fill="#3d3d3d"/>
+    <rect x="0" y="20" width="500" height="8" fill="#3d3d3d"/>
+    <circle cx="18" cy="14" r="6" fill="#ff5f57"/>
+    <circle cx="38" cy="14" r="6" fill="#febc2e"/>
+    <circle cx="58" cy="14" r="6" fill="#28c840"/>
+    <text x="250" y="18" font-family="Arial, sans-serif" font-size="11" fill="#aaa" text-anchor="middle">Blender — Saikei Civil</text>
+    
+    <!-- 3D Viewport -->
+    <rect x="10" y="38" width="350" height="200" fill="#1a1a1a"/>
+    
+    <!-- Grid in viewport -->
+    <g opacity="0.3">
+      <line x1="10" y1="138" x2="360" y2="138" stroke="#444"/>
+      <line x1="185" y1="38" x2="185" y2="238" stroke="#444"/>
+    </g>
+    
+    <!-- 3D Road/Alignment visualization -->
+    <path d="M 50 200 Q 120 180, 180 160 Q 240 140, 300 150 L 340 160" 
+          fill="none" stroke="#4a7c42" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 50 200 Q 120 180, 180 160 Q 240 140, 300 150 L 340 160" 
+          fill="none" stroke="#6a9c62" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Properties panel -->
+    <rect x="370" y="38" width="120" height="200" fill="#2a2a2a"/>
+    <text x="430" y="58" font-family="Arial, sans-serif" font-size="10" fill="#ea7600" text-anchor="middle">Saikei Civil</text>
+    <rect x="380" y="70" width="100" height="20" rx="3" fill="#3d3d3d"/>
+    <text x="430" y="84" font-family="Arial, sans-serif" font-size="9" fill="#aaa" text-anchor="middle">Alignment</text>
+    <rect x="380" y="95" width="100" height="20" rx="3" fill="#3d3d3d"/>
+    <text x="430" y="109" font-family="Arial, sans-serif" font-size="9" fill="#aaa" text-anchor="middle">Profile</text>
+    <rect x="380" y="120" width="100" height="20" rx="3" fill="#3d3d3d"/>
+    <text x="430" y="134" font-family="Arial, sans-serif" font-size="9" fill="#aaa" text-anchor="middle">Cross-Section</text>
+    <rect x="380" y="145" width="100" height="20" rx="3" fill="#4a7c42"/>
+    <text x="430" y="159" font-family="Arial, sans-serif" font-size="9" fill="#fff" text-anchor="middle">Georeferencing</text>
+    
+    <!-- Timeline -->
+    <rect x="10" y="248" width="480" height="42" fill="#2a2a2a"/>
+    <line x1="20" y1="270" x2="480" y2="270" stroke="#444" stroke-width="1"/>
+    <rect x="50" y="265" width="80" height="10" rx="2" fill="#4a7c42" opacity="0.7"/>
+    <rect x="200" y="265" width="120" height="10" rx="2" fill="#d4a574" opacity="0.7"/>
+  </g>
+  
+  <!-- Blender + Saikei logos -->
+  <circle cx="520" cy="340" r="30" fill="url(#blender-orange)"/>
+  <text x="520" y="346" font-family="Arial Black, sans-serif" font-size="20" fill="#fff" text-anchor="middle">B</text>
+  
+  <text x="460" y="346" font-family="Arial, sans-serif" font-size="14" fill="#666">+</text>
+  
+  <circle cx="400" cy="340" r="30" fill="#2d5a27"/>
+  <text x="400" y="346" font-family="Noto Sans JP, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle">栽</text>
+</svg>

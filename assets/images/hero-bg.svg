@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5a27"/>
+      <stop offset="50%" style="stop-color:#1e3d1a"/>
+      <stop offset="100%" style="stop-color:#2d5a27"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="rgba(255,255,255,0.08)"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)"/>
+  
+  <!-- Grid pattern overlay -->
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+  
+  <!-- Abstract road/alignment curves -->
+  <g opacity="0.1">
+    <!-- Main curved alignment -->
+    <path d="M -100 800 Q 400 600, 800 650 T 1600 500 T 2100 600" 
+          fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M -100 850 Q 400 650, 800 700 T 1600 550 T 2100 650" 
+          fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-dasharray="20,10"/>
+    
+    <!-- Secondary alignment -->
+    <path d="M 0 200 Q 300 350, 600 300 T 1200 400 T 1920 300" 
+          fill="none" stroke="#d4a574" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Topographic contour hints -->
+    <ellipse cx="300" cy="400" rx="200" ry="80" fill="none" stroke="#fff" stroke-width="1"/>
+    <ellipse cx="300" cy="400" rx="280" ry="120" fill="none" stroke="#fff" stroke-width="1"/>
+    <ellipse cx="300" cy="400" rx="360" ry="160" fill="none" stroke="#fff" stroke-width="1"/>
+    
+    <ellipse cx="1400" cy="700" rx="150" ry="60" fill="none" stroke="#fff" stroke-width="1"/>
+    <ellipse cx="1400" cy="700" rx="220" ry="90" fill="none" stroke="#fff" stroke-width="1"/>
+    <ellipse cx="1400" cy="700" rx="290" ry="120" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+  
+  <!-- Corner accent -->
+  <circle cx="1800" cy="150" r="200" fill="rgba(212,165,116,0.1)"/>
+  <circle cx="100" cy="900" r="300" fill="rgba(255,255,255,0.03)"/>
+</svg>

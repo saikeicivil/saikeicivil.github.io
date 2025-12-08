@@ -1,24 +1,84 @@
+# Welcome to Jekyll!
 # Site Settings
-title: Saikei Civil
-description: Cultivating Open Infrastructure — Open-source civil engineering BIM for IFC 4.3
-url: "https://saikeicivil.org"
+locale                   : "en-US"
+title                    : "Saikei Civil"
+title_separator          : "—"
+subtitle                 : "Cultivating Open Infrastructure"
+name                     : "Desert Springs Civil Engineering PLLC"
+description              : "Open-source civil engineering BIM software creating native IFC 4.3 files for roads, alignments, and infrastructure design."
+url                      : "https://saikeicivil.org"
+baseurl                  : ""
+repository               : "saikeicivil/saikeicivil.github.io"
+teaser                   : # path of fallback teaser image
+logo                     : "/assets/images/logo.svg"
+masthead_title           : "Saikei Civil"
 
-# Build Settings
-markdown: kramdown
-highlighter: rouge
+# Site Author
+author:
+  name             : "Michael Yoder, PE"
+  avatar           : # path of avatar image
+  bio              : "Civil engineer democratizing infrastructure BIM tools."
+  location         : "Nampa, Idaho"
+  email            : 
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/saikeicivil/SaikeiCivil"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/saikeicivil"
 
-# Theme settings (using minimal mistakes or just custom)
-# We're using a custom layout for full control
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/saikeicivil/SaikeiCivil"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/saikeicivil"
 
-# Social/Links
-github_repo: https://github.com/saikeicivil/SaikeiCivil
-linkedin: https://linkedin.com/company/saikeicivil
+# Reading Files
+include:
+  - _pages
 
-# SEO
-author: Desert Springs Civil Engineering PLLC
-locale: en_US
+# Build settings
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin    : "default" # We'll override with custom colors
 
-# Exclude from build
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Exclude from processing
 exclude:
   - README.md
   - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  # _posts (if you add a blog later)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true

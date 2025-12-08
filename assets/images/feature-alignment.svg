@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fdf7"/>
+      <stop offset="100%" style="stop-color:#eef6ed"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#card-bg)"/>
+  
+  <!-- Grid background -->
+  <g stroke="#2d5a27" stroke-width="0.5" opacity="0.1">
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/>
+  </g>
+  
+  <!-- Horizontal alignment curve -->
+  <path d="M 50 300 L 150 300 Q 250 300, 300 250 Q 350 200, 400 200 L 550 200" 
+        fill="none" stroke="#2d5a27" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- PI points -->
+  <circle cx="150" cy="300" r="8" fill="#d4a574" stroke="#2d5a27" stroke-width="2"/>
+  <circle cx="300" cy="250" r="8" fill="#d4a574" stroke="#2d5a27" stroke-width="2"/>
+  <circle cx="400" cy="200" r="8" fill="#d4a574" stroke="#2d5a27" stroke-width="2"/>
+  
+  <!-- Tangent lines (dashed) -->
+  <line x1="150" y1="300" x2="300" y2="250" stroke="#4a7c42" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.6"/>
+  <line x1="300" y1="250" x2="400" y2="200" stroke="#4a7c42" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.6"/>
+  
+  <!-- Labels -->
+  <text x="145" y="330" font-family="Arial, sans-serif" font-size="12" fill="#2d5a27">PI-1</text>
+  <text x="295" y="280" font-family="Arial, sans-serif" font-size="12" fill="#2d5a27">PI-2</text>
+  <text x="395" y="230" font-family="Arial, sans-serif" font-size="12" fill="#2d5a27">PI-3</text>
+</svg>

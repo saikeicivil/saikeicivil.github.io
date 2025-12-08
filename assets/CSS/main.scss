@@ -1,0 +1,325 @@
+/* ==========================================================================
+   Saikei Civil - Custom Styles for Minimal Mistakes
+   ========================================================================== */
+
+/* Brand Colors */
+$saikei-green: #2d5a27;
+$saikei-green-light: #4a7c42;
+$saikei-green-dark: #1e3d1a;
+$saikei-accent: #d4a574;
+$saikei-accent-light: #e8c9a4;
+
+/* Override Minimal Mistakes skin variables */
+$primary-color: $saikei-green !default;
+$success-color: $saikei-green-light !default;
+$warning-color: $saikei-accent !default;
+$danger-color: #ee5253 !default;
+$info-color: #3498db !default;
+
+$background-color: #fafafa !default;
+$text-color: #333 !default;
+$muted-text-color: #666 !default;
+$border-color: #e0e0e0 !default;
+
+$link-color: $saikei-green !default;
+$link-color-hover: $saikei-green-dark !default;
+$link-color-visited: $saikei-green !default;
+
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $saikei-green !default;
+
+/* Footer */
+$footer-background-color: $saikei-green-dark !default;
+
+/* Import Minimal Mistakes styles */
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+/* ==========================================================================
+   Custom Components
+   ========================================================================== */
+
+/* Hero/Header enhancements */
+.page__hero--overlay {
+  background-color: $saikei-green;
+  
+  .page__title {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .page__lead {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .btn {
+    font-weight: 600;
+    margin: 0.25em;
+  }
+  
+  .btn--primary {
+    background-color: $saikei-accent;
+    color: $saikei-green-dark;
+    
+    &:hover {
+      background-color: $saikei-accent-light;
+    }
+  }
+}
+
+/* Stats intro bar */
+.feature__wrapper {
+  .archive__item-excerpt {
+    font-size: 1.1em;
+    color: $muted-text-color;
+  }
+}
+
+/* Feature row cards */
+.feature__item {
+  .archive__item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5em;
+    border: 1px solid $border-color;
+    transition: all 0.25s ease;
+    height: 100%;
+    
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      border-color: $saikei-green-light;
+    }
+  }
+  
+  .archive__item-title {
+    color: $saikei-green;
+    font-size: 1.1em;
+    margin-top: 0;
+  }
+  
+  .archive__item-excerpt {
+    font-size: 0.95em;
+    color: $muted-text-color;
+  }
+}
+
+/* Roadmap styling */
+.roadmap-container {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.roadmap-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+  position: relative;
+  
+  &:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 32px;
+    bottom: -1.5em;
+    width: 2px;
+    background: $border-color;
+  }
+  
+  &.complete::after {
+    background: $saikei-green;
+  }
+}
+
+.roadmap-marker {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: $border-color;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-right: 1em;
+  font-size: 0.9em;
+  
+  .complete & {
+    background: $saikei-green;
+  }
+  
+  .current & {
+    background: $saikei-accent;
+    color: $saikei-green-dark;
+    box-shadow: 0 0 0 4px rgba($saikei-accent, 0.3);
+    animation: pulse 2s ease-in-out infinite;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 4px rgba($saikei-accent, 0.3); }
+  50% { box-shadow: 0 0 0 8px rgba($saikei-accent, 0.1); }
+}
+
+.roadmap-content {
+  flex: 1;
+  
+  h4 {
+    margin: 0 0 0.25em;
+    color: $text-color;
+    font-size: 1.1em;
+    
+    .complete & {
+      color: $saikei-green;
+    }
+    
+    .current & {
+      color: $saikei-green;
+    }
+  }
+  
+  p {
+    margin: 0;
+    font-size: 0.9em;
+    color: $muted-text-color;
+  }
+}
+
+.roadmap-status {
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 0.2em 0.6em;
+  border-radius: 12px;
+  margin-top: 0.5em;
+  background: $border-color;
+  color: $muted-text-color;
+  
+  .complete & {
+    background: rgba($saikei-green, 0.1);
+    color: $saikei-green;
+  }
+  
+  .current & {
+    background: rgba($saikei-accent, 0.2);
+    color: darken($saikei-accent, 20%);
+    font-weight: 600;
+  }
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  
+  th {
+    background: $saikei-green;
+    color: #fff;
+    padding: 0.75em 1em;
+    text-align: left;
+  }
+  
+  td {
+    padding: 0.75em 1em;
+    border-bottom: 1px solid $border-color;
+  }
+  
+  tr:hover td {
+    background: rgba($saikei-green, 0.03);
+  }
+}
+
+/* Button enhancements */
+.btn--primary {
+  background-color: $saikei-green;
+  
+  &:hover {
+    background-color: $saikei-green-dark;
+  }
+}
+
+.btn--inverse {
+  border-color: $saikei-green;
+  color: $saikei-green;
+  
+  &:hover {
+    background-color: $saikei-green;
+    color: #fff;
+  }
+}
+
+/* Footer */
+.page__footer {
+  background: linear-gradient(135deg, $saikei-green-dark 0%, $saikei-green 100%);
+  color: rgba(255, 255, 255, 0.9);
+  
+  a {
+    color: rgba(255, 255, 255, 0.8);
+    
+    &:hover {
+      color: #fff;
+    }
+  }
+  
+  footer {
+    text-align: center;
+  }
+}
+
+/* Horizontal rule styling */
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, $border-color, transparent);
+  margin: 3em 0;
+}
+
+/* Section headings */
+h2.text-center {
+  color: $saikei-green;
+  position: relative;
+  padding-bottom: 0.5em;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: $saikei-accent;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .page__hero--overlay {
+    .page__title {
+      font-size: 1.8em;
+    }
+    
+    .page__lead {
+      font-size: 1em;
+    }
+  }
+  
+  .roadmap-container {
+    padding: 0;
+  }
+  
+  .btn--large {
+    display: block;
+    margin: 0.5em 0;
+  }
+}
+
+/* Japanese text styling */
+.page__lead strong {
+  font-family: 'Noto Sans JP', sans-serif;
+}

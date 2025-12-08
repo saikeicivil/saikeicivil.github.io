@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "GitHub"
+    url: https://github.com/saikeicivil/SaikeiCivil
+  - title: "Download"
+    url: https://github.com/saikeicivil/SaikeiCivil/releases
+  - title: "Documentation"
+    url: https://github.com/saikeicivil/SaikeiCivil/wiki
+  - title: "Community"
+    url: https://linkedin.com/company/saikeicivil
