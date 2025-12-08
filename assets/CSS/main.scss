@@ -43,9 +43,15 @@ $footer-background-color: $saikei-green-dark !default;
 .page__hero--overlay {
   background-color: $saikei-green;
   
+  .page__title,
+  .page__lead,
+  .page__meta {
+    color: #fff !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
   .page__title {
     font-size: 2.5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   }
   
   .page__lead {
@@ -53,6 +59,14 @@ $footer-background-color: $saikei-green-dark !default;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    
+    strong {
+      color: $saikei-accent-light;
+    }
+    
+    small {
+      color: rgba(255, 255, 255, 0.9);
+    }
   }
   
   .btn {
@@ -66,6 +80,16 @@ $footer-background-color: $saikei-green-dark !default;
     
     &:hover {
       background-color: $saikei-accent-light;
+    }
+  }
+  
+  .btn--inverse {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
     }
   }
 }
@@ -322,4 +346,124 @@ h2.text-center {
 /* Japanese text styling */
 .page__lead strong {
   font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Stats Grid for Roadmap Page */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.stat-box {
+  background: $saikei-green;
+  color: #fff;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  
+  .stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .stat-label {
+    display: block;
+    font-size: 0.85rem;
+    opacity: 0.9;
+    margin-top: 0.25rem;
+  }
+}
+
+/* Phase headings for Roadmap */
+.phase-complete {
+  color: $saikei-green !important;
+  
+  &::after {
+    content: " ✓";
+    color: $saikei-green;
+  }
+}
+
+.phase-current {
+  color: $saikei-accent !important;
+  position: relative;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    left: -1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: $saikei-accent;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+}
+
+.phase-planned {
+  color: $muted-text-color !important;
+}
+
+/* Page content improvements */
+.page__content {
+  h2 {
+    border-bottom: 2px solid $saikei-accent;
+    padding-bottom: 0.5rem;
+    margin-top: 2.5rem;
+  }
+  
+  blockquote {
+    border-left: 4px solid $saikei-green;
+    background: rgba($saikei-green, 0.05);
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    
+    p {
+      margin: 0;
+    }
+  }
+  
+  code {
+    background: rgba($saikei-green, 0.1);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  
+  pre {
+    background: #1e1e1e;
+    border-radius: 8px;
+    padding: 1rem;
+    
+    code {
+      background: transparent;
+      padding: 0;
+    }
+  }
+}
+
+/* TOC styling */
+.toc {
+  background: rgba($saikei-green, 0.03);
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  
+  .toc__title {
+    color: $saikei-green;
+  }
+  
+  a {
+    color: $text-color;
+    
+    &:hover {
+      color: $saikei-green;
+    }
+  }
 }

@@ -45,15 +45,6 @@ feature_row2:
     alt: "Blender Powered"
     title: "🎨 Blender Powered"
     excerpt: "Built on Blender's world-class 3D platform. Free, open source, and incredibly capable."
-
-feature_row3:
-  - image_path: /assets/images/feature-blender.svg
-    alt: "Saikei Civil in action"
-    title: "See It In Action"
-    excerpt: "Saikei Civil integrates directly into Blender, providing professional civil engineering tools in an open-source environment. Design alignments, create profiles, and generate IFC-compliant infrastructure models."
-    url: "https://github.com/saikeicivil/SaikeiCivil"
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -64,83 +55,14 @@ feature_row3:
 
 ---
 
-## Development Roadmap
-{: .text-center}
+<div class="text-center" markdown="1">
 
-<div class="roadmap-container" markdown="0">
-  <div class="roadmap-item complete">
-    <div class="roadmap-marker">✓</div>
-    <div class="roadmap-content">
-      <h4>Phase 1: Foundation</h4>
-      <p>Alignments, Georeferencing, Vertical Profiles</p>
-      <span class="roadmap-status">Complete</span>
-    </div>
-  </div>
-  
-  <div class="roadmap-item current">
-    <div class="roadmap-marker">●</div>
-    <div class="roadmap-content">
-      <h4>Phase 2: Cross-Sections & Corridors</h4>
-      <p>Assembly templates, corridor generation, 3D modeling</p>
-      <span class="roadmap-status">In Progress — Sprint 5</span>
-    </div>
-  </div>
-  
-  <div class="roadmap-item">
-    <div class="roadmap-marker">○</div>
-    <div class="roadmap-content">
-      <h4>Phase 3: Advanced Modeling</h4>
-      <p>Earthwork, drainage, utilities, grading</p>
-      <span class="roadmap-status">Planned</span>
-    </div>
-  </div>
-  
-  <div class="roadmap-item">
-    <div class="roadmap-marker">○</div>
-    <div class="roadmap-content">
-      <h4>Phase 4: Enterprise & Ecosystem</h4>
-      <p>Collaboration, import/export, extensions</p>
-      <span class="roadmap-status">Planned</span>
-    </div>
-  </div>
+## The World's First Open-Source Native IFC Infrastructure Tool
+
+Saikei Civil is built for civil engineers who believe professional tools should be accessible to everyone — small firms, students, and engineers worldwide.
+
+[Learn More About Us](/about/){: .btn .btn--primary .btn--large}
+[View the Roadmap](/roadmap/){: .btn .btn--inverse .btn--large}
+[Get Involved](/contribute/){: .btn .btn--inverse .btn--large}
+
 </div>
-
----
-
-## Why Open Source?
-{: .text-center}
-
-Professional civil engineering software costs **$5,000–$10,000 annually**, putting it out of reach for small firms, students, and engineers in developing countries. Saikei Civil aims to **democratize these tools** while advancing open standards.
-
-By building on **IFC 4.3** — the international standard for infrastructure BIM — we're creating tools that work *with* any compliant software, not against it.
-
-<div class="text-center" markdown="0">
-  <a href="https://github.com/saikeicivil/SaikeiCivil" class="btn btn--primary btn--large"><i class="fab fa-github"></i> Explore the Code</a>
-  <a href="https://linkedin.com/company/saikeicivil" class="btn btn--inverse btn--large"><i class="fab fa-linkedin"></i> Follow Updates</a>
-</div>
-
----
-
-## Get Involved
-{: .text-center}
-
-Saikei Civil welcomes contributors of all kinds:
-
-| Role | How You Can Help |
-|------|------------------|
-| **Civil Engineers** | Validate workflows, suggest features, test designs |
-| **Developers** | Contribute code, tests, or documentation |
-| **Designers** | Help with UI/UX and visual design |
-| **Testers** | Try it out and report issues |
-| **Advocates** | Share the project, write tutorials, spread the word |
-
----
-
-## About
-{: .text-center}
-
-**Saikei Civil** is developed by **Michael Yoder, PE** at **Desert Springs Civil Engineering PLLC** in Nampa, Idaho.
-
-The name "Saikei" (栽景) refers to the Japanese art of creating miniature planted landscapes — the perfect complement to Bonsai's focus on individual trees. Together, they represent a complete vision for open-source BIM.
-
-*Saikei Civil is part of the [OSArch](https://osarch.org) open-source architecture community and built on [IfcOpenShell](https://ifcopenshell.org).*
