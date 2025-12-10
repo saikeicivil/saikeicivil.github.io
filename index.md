@@ -46,7 +46,17 @@ Professional infrastructure modeling capabilities for horizontal civil engineeri
 
 </div>
 
-<div align="center" markdown="1">
+<style>
+.feature-table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.feature-table-wrapper table {
+  margin: 0 auto;
+}
+</style>
+
+<div class="feature-table-wrapper" markdown="1">
 
 | **Alignment Tools** | **Cross-Sections** |
 |:--:|:--:|
