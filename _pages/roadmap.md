@@ -12,7 +12,7 @@ Saikei Civil follows a structured 16-sprint development roadmap divided into fou
 
 ---
 
-## Phase 1: Foundation (Complete)
+### Phase 1: Foundation (Complete)
 {: .phase-complete}
 
 **Sprints 1–4 — COMPLETE**
