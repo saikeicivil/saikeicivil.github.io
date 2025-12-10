@@ -8,28 +8,28 @@ toc_label: "Ways to Help"
 toc_icon: "hands-helping"
 ---
 
-Saikei Civil is built by the community, for the community. Whether you're a civil engineer, developer, designer, or just passionate about open source — there's a place for you here.
+Saikei Civil is developed openly and welcomes contributions from civil engineers, software developers, designers, and documentation specialists.
 
 ---
 
 ## Ways to Contribute
 
-### 🛤️ Civil Engineers
+### Civil Engineers
 
-Your domain expertise is invaluable! Help us build tools that actually work for real-world projects.
+Domain expertise is essential for building tools that address real-world project requirements.
 
 **How you can help:**
-- Validate that workflows match industry standards
-- Suggest features based on your daily work
-- Test designs against real project requirements
+- Validate workflows against industry standards
+- Suggest features based on project experience
+- Test designs against actual project requirements
 - Review AASHTO/ASCE compliance
-- Provide feedback on UI/UX from an engineer's perspective
+- Provide feedback on UI/UX from a practitioner's perspective
 
 **Get started:** [Open a feature request](https://github.com/saikeicivil/SaikeiCivil/issues/new?template=feature_request.md)
 
 ---
 
-### 💻 Developers
+### Developers
 
 The codebase is Python-based, built on Blender and IfcOpenShell.
 
@@ -38,7 +38,7 @@ The codebase is Python-based, built on Blender and IfcOpenShell.
 - Improve test coverage
 - Optimize performance
 - Review pull requests
-- Help with CI/CD and build systems
+- Contribute to CI/CD and build systems
 
 **Tech stack:**
 - Python 3.11+
@@ -51,61 +51,61 @@ The codebase is Python-based, built on Blender and IfcOpenShell.
 
 ---
 
-### 🎨 Designers
+### Designers
 
-Help make Saikei Civil beautiful and intuitive.
+Help improve the usability and visual clarity of Saikei Civil.
 
 **How you can help:**
 - Design UI/UX improvements
 - Create icons and graphics
 - Improve documentation visuals
-- Design marketing materials
-- Help with the website
+- Design project materials
+- Contribute to the website
 
 **Get started:** [Email us](mailto:hello@saikeicivil.org) with your portfolio
 
 ---
 
-### 📝 Technical Writers
+### Technical Writers
 
-Good documentation makes or breaks a project.
+Clear documentation is critical for adoption and usability.
 
 **How you can help:**
 - Write tutorials and how-to guides
 - Improve inline documentation
 - Create video tutorials
 - Translate documentation
-- Proofread and edit existing docs
+- Proofread and edit existing content
 
 **Get started:** [View the docs repo](https://github.com/saikeicivil/SaikeiCivil/tree/main/docs)
 
 ---
 
-### 🧪 Testers
+### Testers
 
-Find bugs before users do!
+Quality assurance ensures reliable software for production use.
 
 **How you can help:**
-- Test new releases before they go live
+- Test new releases before publication
 - Report bugs with detailed reproduction steps
 - Test on different operating systems
 - Validate IFC output in other software
 - Stress test with large datasets
 
-**Get started:** [Download the latest release](https://github.com/saikeicivil/SaikeiCivil/releases) and try it out
+**Get started:** [Download the latest release](https://github.com/saikeicivil/SaikeiCivil/releases)
 
 ---
 
-### 📣 Advocates
+### Advocates
 
-Spread the word!
+Help increase awareness of open-source infrastructure tools.
 
 **How you can help:**
-- Share on social media
-- Write blog posts about your experience
+- Share on professional networks
+- Write about your experience with the software
 - Present at conferences or meetups
-- Mention Saikei in relevant forums
-- Star the repo on GitHub ⭐
+- Participate in relevant forums
+- Star the repository on GitHub
 
 ---
 
@@ -121,31 +121,31 @@ Spread the word!
 
 ## Financial Support
 
-Saikei Civil is free and always will be. But development takes time and resources.
+Saikei Civil is free and will remain so. Development is sustained through community support.
 
 **Ways to support financially:**
 
-- ⭐ **GitHub Sponsors** — Coming soon
-- 💼 **Corporate sponsorship** — Contact us for details
-- 🎓 **Grant funding** — Help us apply for research grants
+- **GitHub Sponsors** — Coming soon
+- **Corporate sponsorship** — Contact us for details
+- **Grant funding** — Assist with research grant applications
 
-Your support helps fund:
-- Full-time development
+Funding supports:
+- Continued development
 - Infrastructure costs
 - Documentation and tutorials
-- Community events
+- Community initiatives
 
 ---
 
 ## Code of Conduct
 
-We're committed to providing a welcoming and inclusive environment. All contributors are expected to:
+All contributors are expected to:
 
 - Be respectful and considerate
-- Welcome newcomers and help them get started
-- Accept constructive criticism gracefully
-- Focus on what's best for the community
-- Show empathy towards others
+- Welcome newcomers and assist with onboarding
+- Accept constructive criticism professionally
+- Focus on what benefits the project
+- Communicate clearly and directly
 
 ---
 
@@ -178,9 +178,7 @@ python -m pytest tests/
 
 <div class="text-center" markdown="1">
 
-Ready to jump in?
-
 [View Open Issues](https://github.com/saikeicivil/SaikeiCivil/issues){: .btn .btn--primary .btn--large}
-[Fork the Repo](https://github.com/saikeicivil/SaikeiCivil/fork){: .btn .btn--inverse .btn--large}
+[Fork the Repository](https://github.com/saikeicivil/SaikeiCivil/fork){: .btn .btn--inverse .btn--large}
 
 </div>

@@ -8,11 +8,11 @@ toc_label: "Phases"
 toc_icon: "road"
 ---
 
-Saikei Civil follows a structured 16-sprint development roadmap divided into four phases. We're currently in **Phase 2**.
+Saikei Civil follows a structured 16-sprint development roadmap divided into four phases. Development is currently in **Phase 2**.
 
 ---
 
-## Phase 1: Foundation ✅
+## Phase 1: Foundation (Complete)
 {: .phase-complete}
 
 **Sprints 1–4 — COMPLETE**
@@ -30,14 +30,14 @@ The foundation phase established core infrastructure capabilities with productio
 
 ### Key Metrics
 
-- ✅ 8,000+ lines of production code
-- ✅ 107+ tests passing (100% pass rate)
-- ✅ Sub-millimeter georeferencing precision
-- ✅ IFC 4.3 compliance validated
+- 8,000+ lines of production code
+- 107+ tests passing (100% pass rate)
+- Sub-millimeter georeferencing precision
+- IFC 4.3 compliance validated
 
 ---
 
-## Phase 2: Cross-Sections & Corridors 🚧
+## Phase 2: Cross-Sections & Corridors (Current)
 {: .phase-current}
 
 **Sprints 5–8 — IN PROGRESS**
@@ -50,10 +50,10 @@ Building complete 3D infrastructure models by combining alignments, profiles, an
 
 | Task | Status |
 |------|--------|
-| `IfcSectionedSolidHorizontal` implementation | 🔄 In Progress |
-| Corridor mesh generation | 📋 Planned |
-| Blender visualization integration | 📋 Planned |
-| Multi-region corridor support | 📋 Planned |
+| `IfcSectionedSolidHorizontal` implementation | In Progress |
+| Corridor mesh generation | Planned |
+| Blender visualization integration | Planned |
+| Multi-region corridor support | Planned |
 
 ### Upcoming Sprints
 
@@ -105,7 +105,7 @@ Professional features for team collaboration and ecosystem integration.
 
 <div class="stats-grid" markdown="0">
   <div class="stat-box">
-    <span class="stat-number">25K+</span>
+    <span class="stat-number">30K+</span>
     <span class="stat-label">Lines of Code</span>
   </div>
   <div class="stat-box">
@@ -139,7 +139,7 @@ Professional features for team collaboration and ecosystem integration.
 
 <div class="text-center" markdown="1">
 
-Want to help accelerate the roadmap?
+Interested in contributing to the roadmap?
 
 [Get Involved](/contribute/){: .btn .btn--primary .btn--large}
 [View on GitHub](https://github.com/saikeicivil/SaikeiCivil){: .btn .btn--inverse .btn--large}
