@@ -46,7 +46,7 @@ Download Saikei Civil and explore the capabilities firsthand.
 
 <div class="text-center" markdown="1">
 
-[Download v0.6.0](https://github.com/saikeicivil/SaikeiCivil/releases){: .btn .btn--primary .btn--large}
+[Download](https://github.com/saikeicivil/SaikeiCivil/releases/latest){: .btn .btn--primary .btn--large}
 [View Source Code](https://github.com/saikeicivil/SaikeiCivil){: .btn .btn--inverse .btn--large}
 
 </div>

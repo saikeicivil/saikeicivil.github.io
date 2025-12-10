@@ -9,8 +9,8 @@ header:
   actions:
     - label: "View on GitHub"
       url: "https://github.com/saikeicivil/SaikeiCivil"
-    - label: "Download v0.6.0"
-      url: "https://github.com/saikeicivil/SaikeiCivil/releases"
+    - label: "Download"
+      url: "https://github.com/saikeicivil/SaikeiCivil/releases/latest"
 excerpt: >
   Open-source native IFC infrastructure design software for roads, alignments, and civil engineering projects. Built on Blender and IFC 4.3 for true interoperability.
 
