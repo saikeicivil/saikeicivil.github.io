@@ -1,52 +1,105 @@
 ---
 layout: single
-title: "Demo & Case Studies"
+title: "Capabilities"
 permalink: /demo/
 author_profile: false
 toc: true
-toc_label: "Contents"
-toc_icon: "play-circle"
+toc_label: "Features"
+toc_icon: "layer-group"
 ---
 
-See Saikei Civil in action. This page features demonstrations of core capabilities and real-world project applications.
-
----
-
-## Video Demonstrations
-
-*Coming soon* — Video walkthroughs of alignment creation, cross-section design, and IFC export workflows.
+Saikei Civil provides production-ready infrastructure design capabilities built on IFC 4.3 and Blender.
 
 ---
 
-## Screenshots
+## Horizontal Alignments
 
-*Coming soon* — Interface screenshots showing the Blender-based design environment and IFC output.
+Design road centerlines using industry-standard PI (Point of Intersection) methodology.
+
+| Feature | Description |
+|---------|-------------|
+| **PI-Based Design** | Define alignments through control points with automatic tangent generation |
+| **Curve Geometry** | Circular curves with configurable radii |
+| **Station Equations** | Full stationing support with equation handling |
+| **Real-Time Preview** | Immediate visualization as parameters change |
 
 ---
 
-## Case Studies
+## Vertical Profiles
+
+Create vertical alignments with grade-compliant vertical curves.
+
+| Feature | Description |
+|---------|-------------|
+| **PVI-Based Design** | Vertical curves defined through Points of Vertical Intersection |
+| **Parabolic Curves** | AASHTO-compliant symmetric and asymmetric curves |
+| **Grade Calculations** | Automatic grade percentage computation |
+| **K-Value Support** | Design speed verification through rate of curvature |
+
+---
+
+## Cross-Section Templates
+
+Define roadway typical sections with parametric components.
+
+| Feature | Description |
+|---------|-------------|
+| **AASHTO Templates** | Pre-configured lane and shoulder widths |
+| **Parametric Lanes** | Adjustable travel lanes with crown slopes |
+| **Shoulders** | Inside and outside shoulders with independent slopes |
+| **Side Slopes** | Cut and fill slope definitions |
+
+---
+
+## Georeferencing
+
+Accurate real-world positioning through coordinate reference systems.
+
+| Feature | Description |
+|---------|-------------|
+| **CRS Integration** | PyProj-powered coordinate system support |
+| **EPSG Codes** | Standard coordinate reference system identifiers |
+| **Sub-Millimeter Precision** | Validated accuracy for survey-grade positioning |
+| **Coordinate Transforms** | Project-to-global and global-to-project conversions |
+
+---
+
+## Native IFC 4.3 Export
+
+Direct authoring to the international infrastructure BIM standard.
+
+| Feature | Description |
+|---------|-------------|
+| **IfcAlignment** | Full horizontal and vertical alignment export |
+| **IfcAlignmentHorizontal** | Tangent and curve segment definitions |
+| **IfcAlignmentVertical** | Grade and parabolic curve segments |
+| **Georeferenced Output** | IFC files include coordinate reference system data |
+
+---
+
+## Demonstration Project
 
 ### Lucky Peak Dam Access Road — Boise, Idaho
 
-*In development* — A demonstration project featuring horizontal and vertical alignment design for access road infrastructure near Lucky Peak Dam.
+A demonstration project showcasing Saikei Civil's alignment and cross-section capabilities for rural road infrastructure.
 
-**Project scope:**
-- Horizontal alignment with curves and tangents
-- Vertical profile with grade calculations
-- Cross-section templates for rural road design
-- Full IFC 4.3 export with georeferencing
+**Scope:**
+- 2.3 km horizontal alignment with compound curves
+- Vertical profile with 4% maximum grade
+- Rural road cross-section (24' travel way, 4' shoulders)
+- IFC 4.3 export with Idaho State Plane coordinates
 
-**Status:** Documentation in progress
+**Documentation:** In progress
 
 ---
 
-## Try It Yourself
-
-Download Saikei Civil and explore the capabilities firsthand.
-
 <div class="text-center" markdown="1">
 
-[Download](https://github.com/saikeicivil/SaikeiCivil/releases/latest){: .btn .btn--primary .btn--large}
+## Get Started
+
+Download Saikei Civil and explore these capabilities in your own projects.
+
+[Download Latest Release](https://github.com/saikeicivil/SaikeiCivil/releases/latest){: .btn .btn--primary .btn--large}
 [View Source Code](https://github.com/saikeicivil/SaikeiCivil){: .btn .btn--inverse .btn--large}
 
 </div>
