@@ -61,24 +61,6 @@ The codebase is Python-based, built on Blender and IfcOpenShell.
 
 ---
 
-## Financial Support
-
-Saikei Civil is free and will remain so. Development is sustained through community support.
-
-**Ways to support financially:**
-
-- **GitHub Sponsors** — Coming soon
-- **Corporate sponsorship** — Contact us for details
-- **Grant funding** — Assist with research grant applications
-
-Funding supports:
-- Continued development
-- Infrastructure costs
-- Documentation and tutorials
-- Community initiatives
-
----
-
 ## Code of Conduct
 
 All contributors are expected to:
