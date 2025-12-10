@@ -50,8 +50,7 @@ Building complete 3D infrastructure models by combining alignments, profiles, an
 
 | Task | Status |
 |------|--------|
-| `IfcSectionedSolidHorizontal` implementation | In Progress |
-| Corridor mesh generation | Planned |
+| Corridor mesh generation | In Progress |
 | Blender visualization integration | Planned |
 | Multi-region corridor support | Planned |
 
@@ -126,14 +125,14 @@ Professional features for team collaboration and ecosystem integration.
 
 ## Version History
 
-| Version | Date | Highlights |
-|---------|------|------------|
-| v0.6.0 | Dec 2024 | Rebrand to Saikei Civil, cross-section foundations |
-| v0.5.0 | Nov 2024 | Vertical alignment system |
-| v0.4.0 | Nov 2024 | Georeferencing with PyProj |
-| v0.3.0 | Oct 2024 | Horizontal alignment improvements |
-| v0.2.0 | Oct 2024 | Initial IFC 4.3 support |
-| v0.1.0 | Sep 2024 | Project inception |
+| Version | Highlights |
+|---------|------------|
+| v0.6.0 | Rebrand to Saikei Civil, cross-section foundations |
+| v0.5.0 | Vertical alignment system |
+| v0.4.0 | Georeferencing with PyProj |
+| v0.3.0 | Horizontal alignment improvements |
+| v0.2.0 | Initial IFC 4.3 support |
+| v0.1.0 | Project inception |
 
 ---
 
