@@ -41,8 +41,8 @@ The codebase is Python-based, built on Blender and IfcOpenShell.
 - Contribute to CI/CD and build systems
 
 **Tech stack:**
-- Python 3.11+
-- Blender 4.5+ extension API
+- Python 3.13+
+- Blender 4.5+ extension
 - IfcOpenShell for IFC operations
 - PyProj for coordinate systems
 - NumPy for calculations
