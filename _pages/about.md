@@ -68,7 +68,7 @@ By building on **IFC 4.3**—the international standard for infrastructure BIM�
 | **Platform** | [Blender](https://blender.org) 4.5+ |
 | **IFC Engine** | [IfcOpenShell](https://ifcopenshell.org) |
 | **Coordinate Systems** | [PyProj](https://pyproj4.github.io/pyproj/) |
-| **Language** | Python 3.11+ |
+| **Language** | Python 3.13+ |
 | **License** | GPL v3 |
 
 ## The Developer
@@ -83,7 +83,6 @@ Saikei Civil is part of the [OSArch](https://osarch.org) (Open Source Architectu
 
 - **Bonsai** — Native IFC for buildings
 - **IfcOpenShell** — The open-source IFC toolkit
-- **BlenderBIM** ecosystem tools
 
 These projects share a vision of an open, interoperable built environment.
 
