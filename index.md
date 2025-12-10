@@ -47,29 +47,65 @@ Professional infrastructure modeling capabilities for horizontal civil engineeri
 </div>
 
 <style>
-.feature-table-wrapper {
-  display: flex;
-  justify-content: center;
-}
-.feature-table-wrapper table {
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 900px;
   margin: 0 auto;
+  padding: 1rem;
+}
+.feature-grid .feature-box {
+  text-align: left;
+}
+.feature-grid .feature-box h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+.feature-grid .feature-box ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+@media (max-width: 600px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
-<div class="feature-table-wrapper" markdown="1">
-
-| **Alignment Tools** | **Cross-Sections** |
-|:--:|:--:|
-| Horizontal and vertical alignment creation | AASHTO-compliant templates |
-| Curve and spiral calculations | Parametric lanes, shoulders, slopes |
-| Station equations and references | Superelevation calculations |
-
-| **Native IFC 4.3** | **Volume Calculations** |
-|:--:|:--:|
-| Direct IFC authoring (not conversion) | Cut/fill analysis |
-| Full IfcAlignment support | Mass haul diagrams |
-| Interoperability with major BIM platforms | Quantity takeoffs |
-
+<div class="feature-grid">
+  <div class="feature-box">
+    <h4>Alignment Tools</h4>
+    <ul>
+      <li>Horizontal and vertical alignment creation</li>
+      <li>Curve and spiral calculations</li>
+      <li>Station equations and references</li>
+    </ul>
+  </div>
+  <div class="feature-box">
+    <h4>Cross-Sections</h4>
+    <ul>
+      <li>AASHTO-compliant templates</li>
+      <li>Parametric lanes, shoulders, slopes</li>
+      <li>Superelevation calculations</li>
+    </ul>
+  </div>
+  <div class="feature-box">
+    <h4>Native IFC 4.3</h4>
+    <ul>
+      <li>Direct IFC authoring (not conversion)</li>
+      <li>Full IfcAlignment support</li>
+      <li>Interoperability with major BIM platforms</li>
+    </ul>
+  </div>
+  <div class="feature-box">
+    <h4>Volume Calculations</h4>
+    <ul>
+      <li>Cut/fill analysis</li>
+      <li>Mass haul diagrams</li>
+      <li>Quantity takeoffs</li>
+    </ul>
+  </div>
 </div>
 
 ---
