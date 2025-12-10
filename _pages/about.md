@@ -28,7 +28,7 @@ The word combines:
 
 ## Why Open Source?
 
-Professional civil engineering software typically costs $5,000–$10,000 annually, limiting access for:
+Open source tools empower every community to build sustainable infrastructure, foster innovation through shared knowledge, and accelerate solutions to the  most pressing infrastructure needs. 
 
 - **Small and mid-size firms** competing for infrastructure projects
 - **Students** learning infrastructure design workflows
@@ -42,7 +42,13 @@ Saikei Civil provides these capabilities while advancing open standards adoption
 Traditional BIM workflows follow this pattern:
 
 ```
-.dwg → .rvt → .ifc (export)
+.dwg → .ifc (export)
+```
+```
+.rvt → .ifc (export)
+```
+```
+.dgn → .ifc (export)
 ```
 
 Data degrades at each conversion. The IFC file becomes an afterthought.
