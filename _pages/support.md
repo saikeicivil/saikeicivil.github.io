@@ -25,47 +25,6 @@ Funding ensures this work continues and accelerates the path to production-ready
 
 ---
 
-## Sponsorship Tiers
-
-### Individual Supporters
-
-For engineers, students, and advocates who believe in open infrastructure tools.
-
-| Tier | Monthly | Benefits |
-|------|---------|----------|
-| **Supporter** | $10 | Name in project acknowledgments |
-| **Advocate** | $25 | Above + early access to releases |
-| **Professional** | $50 | Above + priority issue responses |
-
-### Corporate Sponsors
-
-For firms and organizations investing in open standards and interoperability.
-
-| Tier | Monthly | Benefits |
-|------|---------|----------|
-| **Bronze** | $250 | Logo on website sponsors section |
-| **Silver** | $500 | Above + logo in release notes |
-| **Gold** | $1,000 | Above + quarterly roadmap input session |
-| **Platinum** | $2,500+ | Above + priority feature development consideration |
-
-Corporate sponsorship demonstrates your organization's commitment to open standards in infrastructure design.
-
----
-
-## One-Time Contributions
-
-Not ready for a recurring commitment? One-time contributions of any amount help fund specific development milestones and infrastructure costs.
-
----
-
-## How to Sponsor
-
-**GitHub Sponsors** — Coming soon
-
-**Direct Sponsorship** — Contact us at [hello@saikeicivil.org](mailto:hello@saikeicivil.org) to discuss corporate sponsorship or alternative arrangements.
-
----
-
 ## What Your Support Funds
 
 | Category | Description |
