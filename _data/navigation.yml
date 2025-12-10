@@ -8,6 +8,8 @@ main:
     url: /roadmap/
   - title: "Contribute"
     url: /contribute/
+  - title: "Support"
+    url: /support/
   - title: "GitHub"
     url: https://github.com/saikeicivil/SaikeiCivil
   - title: "Download"
