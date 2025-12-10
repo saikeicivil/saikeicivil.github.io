@@ -4,10 +4,10 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Demo"
+    url: /demo/
   - title: "Roadmap"
     url: /roadmap/
-  - title: "Contribute"
-    url: /contribute/
   - title: "Support"
     url: /support/
   - title: "GitHub"

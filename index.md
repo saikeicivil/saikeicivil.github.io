@@ -15,7 +15,7 @@ excerpt: >
   Open-source native IFC infrastructure design software for roads, alignments, and civil engineering projects. Built on Blender and IFC 4.3 for true interoperability.
 
 intro:
-  - excerpt: '**30,000+ lines of code** · **107+ tests passing** · **Native IFC 4.3** · **Sprint 5 of 16**'
+  - excerpt: '**30,000+ lines of code** · **107+ tests passing** · **Native IFC 4.3** · **Phase 1 Complete**'
 
 feature_row:
   - image_path: /assets/images/feature-crosssection.svg
