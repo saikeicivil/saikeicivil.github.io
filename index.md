@@ -38,9 +38,33 @@ feature_row:
 
 ---
 
+## Complete Infrastructure Design Suite
+{: .text-center}
+
+Professional infrastructure modeling capabilities for horizontal civil engineering projects.
+{: .text-center}
+
+<div class="feature-grid" markdown="1">
+
+| **Alignment Tools** | **Cross-Sections** |
+|:--|:--|
+| Horizontal and vertical alignment creation | AASHTO-compliant templates |
+| Curve and spiral calculations | Parametric lanes, shoulders, slopes |
+| Station equations and references | Superelevation calculations |
+
+| **Native IFC 4.3** | **Volume Calculations** |
+|:--|:--|
+| Direct IFC authoring (not conversion) | Cut/fill analysis |
+| Full IfcAlignment support | Mass haul diagrams |
+| Interoperability with major BIM platforms | Quantity takeoffs |
+
+</div>
+
+---
+
 <div class="text-center" markdown="1">
 
-## Open-Source Native IFC Infrastructure Design
+## About Saikei Civil
 
 Saikei Civil (栽景) provides professional-grade infrastructure design tools accessible to engineering firms of all sizes, academic institutions, and individual practitioners.
 
