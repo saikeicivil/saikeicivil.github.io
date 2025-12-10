@@ -8,7 +8,7 @@ toc_label: "Ways to Help"
 toc_icon: "hands-helping"
 ---
 
-Saikei Civil is developed openly and welcomes contributions from civil engineers, software developers, designers, and documentation specialists.
+Saikei Civil is developed openly and welcomes contributions from civil engineers, software developers, and anyone passionate about open infrastructure tools.
 
 ---
 
@@ -48,64 +48,6 @@ The codebase is Python-based, built on Blender and IfcOpenShell.
 - NumPy for calculations
 
 **Get started:** [View open issues](https://github.com/saikeicivil/SaikeiCivil/issues)
-
----
-
-### Designers
-
-Help improve the usability and visual clarity of Saikei Civil.
-
-**How you can help:**
-- Design UI/UX improvements
-- Create icons and graphics
-- Improve documentation visuals
-- Design project materials
-- Contribute to the website
-
-**Get started:** [Email us](mailto:hello@saikeicivil.org) with your portfolio
-
----
-
-### Technical Writers
-
-Clear documentation is critical for adoption and usability.
-
-**How you can help:**
-- Write tutorials and how-to guides
-- Improve inline documentation
-- Create video tutorials
-- Translate documentation
-- Proofread and edit existing content
-
-**Get started:** [View the docs repo](https://github.com/saikeicivil/SaikeiCivil/tree/main/docs)
-
----
-
-### Testers
-
-Quality assurance ensures reliable software for production use.
-
-**How you can help:**
-- Test new releases before publication
-- Report bugs with detailed reproduction steps
-- Test on different operating systems
-- Validate IFC output in other software
-- Stress test with large datasets
-
-**Get started:** [Download the latest release](https://github.com/saikeicivil/SaikeiCivil/releases)
-
----
-
-### Advocates
-
-Help increase awareness of open-source infrastructure tools.
-
-**How you can help:**
-- Share on professional networks
-- Write about your experience with the software
-- Present at conferences or meetups
-- Participate in relevant forums
-- Star the repository on GitHub
 
 ---
 
@@ -152,7 +94,6 @@ All contributors are expected to:
 ## Getting Started with Development
 
 ### Quick Setup
-
 ```bash
 # Clone the repository
 git clone https://github.com/saikeicivil/SaikeiCivil.git
