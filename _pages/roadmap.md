@@ -14,8 +14,6 @@ Saikei Civil follows a structured 16-sprint development roadmap divided into fou
 
 ### Phase 1: Foundation (Complete)
 
-**Sprints 1–4 — COMPLETE**
-
 The foundation phase established core infrastructure capabilities with production-ready code.
 
 ### Completed Features
@@ -29,20 +27,16 @@ The foundation phase established core infrastructure capabilities with productio
 
 ### Key Metrics
 
-- 8,000+ lines of production code
+- 30,000+ lines of production code
 - 107+ tests passing (100% pass rate)
 - Sub-millimeter georeferencing precision
 - IFC 4.3 compliance validated
 
 ---
 
-## Phase 2: Cross-Sections & Corridors (Current)
-
-**Sprints 5–8 — IN PROGRESS**
+## Phase 2: Cross-Sections & Corridors (In Progress)
 
 Building complete 3D infrastructure models by combining alignments, profiles, and cross-sections.
-
-### Current Sprint: Sprint 5
 
 **Focus:** Corridor Generation
 
@@ -51,8 +45,6 @@ Building complete 3D infrastructure models by combining alignments, profiles, an
 | Corridor mesh generation | In Progress |
 | Blender visualization integration | Planned |
 | Multi-region corridor support | Planned |
-
-### Upcoming Sprints
 
 | Sprint | Focus | Description |
 |--------|-------|-------------|
@@ -63,8 +55,6 @@ Building complete 3D infrastructure models by combining alignments, profiles, an
 ---
 
 ## Phase 3: Advanced Modeling
-
-**Sprints 9–12 — PLANNED**
 
 Expanding beyond corridors to complete site modeling capabilities.
 
