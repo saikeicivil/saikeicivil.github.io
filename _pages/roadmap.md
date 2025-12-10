@@ -136,6 +136,6 @@ Professional features for team collaboration and ecosystem integration.
 
 Interested in contributing to the roadmap?
 
-[Get Involved](ENTER LINK){: .btn .btn--primary .btn--large} [View on GitHub](https://saikeicivil.org){: .btn .btn--inverse .btn--large}
+[Get Involved](/contribute/){: .btn .btn--primary .btn--large} [View on GitHub](https://github.com/saikeicivil/SaikeiCivil){: .btn .btn--inverse .btn--large}
 
 </div>
