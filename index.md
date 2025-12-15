@@ -114,9 +114,9 @@ Professional infrastructure modeling capabilities for horizontal civil engineeri
 
 ## About Saikei Civil
 
-Saikei Civil (栽景) provides professional-grade infrastructure design tools accessible to engineering firms of all sizes, academic institutions, and individual practitioners.
+Saikei Civil (栽景) enables infrastructure design teams to work with open standards from day one. Built natively on IFC 4.3, designs travel between applications and remain accessible throughout the asset lifecycle.
 
-**30,000+ lines of production-tested code** built on IFC 4.3, the international standard for infrastructure BIM.
+**30,000+ lines of production-tested code** serving firms of all sizes, academic institutions, and practitioners worldwide.
 
 [About the Project](/about/){: .btn .btn--primary .btn--large}
 [Development Roadmap](/roadmap/){: .btn .btn--inverse .btn--large}

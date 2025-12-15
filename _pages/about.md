@@ -26,16 +26,22 @@ The word combines:
 - 栽 (*sai*) — to plant, to cultivate
 - 景 (*kei*) — scenery, landscape
 
-## Why Open Source?
+## Why Open Standards?
 
-Open source tools empower every community to build sustainable infrastructure, foster innovation through shared knowledge, and accelerate solutions to the  most pressing infrastructure needs. 
+Infrastructure projects involve dozens of stakeholders using different software across decades-long asset lifecycles. Open standards solve this coordination problem.
 
-- **Small and mid-size firms** competing for infrastructure projects
-- **Students** learning infrastructure design workflows
-- **Engineers in developing regions** with limited software budgets
-- **Researchers** requiring transparent, modifiable tools
+**IFC 4.3** is the buildingSMART standard for infrastructure data exchange. By building natively on IFC, Saikei Civil creates designs that:
 
-Saikei Civil provides these capabilities while advancing open standards adoption.
+- Travel between applications without data loss
+- Remain accessible regardless of vendor changes
+- Support the full project lifecycle from design through operations
+
+### Who Benefits
+
+- **Large firms and agencies** coordinating complex project teams across multiple software platforms
+- **Small and mid-size firms** delivering to clients with varying BIM requirements
+- **Students and educators** learning infrastructure design with industry-standard formats
+- **Researchers** requiring transparent, modifiable tools for analysis
 
 ### The Native IFC Approach
 
