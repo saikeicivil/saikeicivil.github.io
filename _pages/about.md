@@ -73,7 +73,17 @@ By building on **IFC 4.3**—the international standard for infrastructure BIM�
 
 ## The Developer
 
-**Saikei Civil** is developed by **Michael Yoder, PE** at **Desert Springs Civil Engineering PLLC** in Meridian, Idaho. Michael is a licensed Professional Engineer focused on making civil engineering tools accessible through open standards and open-source software.
+**Saikei Civil** is developed by **Michael Yoder, PE** through **Desert Springs Civil Engineering PLLC** in Meridian, Idaho.
+
+Michael is a licensed Professional Engineer (Idaho, Indiana) with over 14 years of civil engineering experience. He holds a B.S. in Civil Engineering from Purdue University (2010) and has worked across multiple sectors of the industry:
+
+| Experience | Focus |
+|------------|-------|
+| **Bureau of Reclamation** | Federal water infrastructure projects |
+| **HDR** | Transportation and infrastructure consulting |
+| **Regional Firms** | Roadway design, water projects, construction inspection |
+
+This breadth of experience—from construction inspection to federal infrastructure—informs Saikei Civil's design as a practical tool for working engineers.
 
 ## Part of the OSArch Ecosystem
 

@@ -92,9 +92,13 @@ python -m pytest tests/
 
 ### Development Resources
 
-- [Contributing Guide](https://github.com/saikeicivil/SaikeiCivil/blob/main/CONTRIBUTING.md)
-- [Architecture Overview](https://github.com/saikeicivil/SaikeiCivil/blob/main/docs/architecture.md)
-- [IFC 4.3 Reference](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/)
+**Project Documentation:**
+- [Architecture Documentation](https://github.com/saikeicivil/SaikeiCivil/tree/main/docs/architecture)
+- [Native IFC Implementation](https://github.com/saikeicivil/SaikeiCivil/tree/main/docs/architecture/native-ifc-docs)
+
+**External References:**
+- [IFC 4.3 Specification](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/) (buildingSMART)
+- [IfcOpenShell Documentation](https://ifcopenshell.org)
 - [Blender Extension API](https://docs.blender.org/manual/en/latest/advanced/extensions/)
 
 ---

@@ -70,14 +70,22 @@ Core infrastructure design tools ready for use today.
 
 ## Ecosystem
 
-Saikei Civil is developed in collaboration with the open-source BIM community.
+Saikei Civil is developed in collaboration with the open-source BIM and infrastructure standards communities.
 
 | Connection | Description |
 |------------|-------------|
-| **OSArch Community** | Active participation in open-source architecture/engineering |
-| **Bonsai Collaboration** | Coordination with the native IFC building design tool |
-| **buildingSMART Engagement** | IFC 4.3 standards compliance and testing |
-| **IFC MasterClass** | Professional development through BIM Corner |
+| **OSArch Community** | Active participation in [OSArch](https://osarch.org) open-source architecture/engineering |
+| **Bonsai Collaboration** | Coordination with the [Bonsai](https://bonsaibim.org) native IFC building design tool |
+| **IfcOpenShell** | Built on the open-source [IFC toolkit](https://ifcopenshell.org) powering Bonsai and FreeCAD |
+| **IFC MasterClass** | Professional IFC training through [BIM Corner](https://bimcorner.com) |
+
+### Standards Focus
+
+Saikei Civil targets **IFC 4.3** (ISO 16739-1:2024), the buildingSMART standard for infrastructure. The project prioritizes:
+
+- IfcAlignment implementation for roads and bridges
+- Georeferencing through IfcMapConversion and IfcProjectedCRS
+- Interoperability with buildingSMART-certified applications
 
 ---
 

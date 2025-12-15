@@ -85,18 +85,32 @@ Accurate real-world positioning through coordinate reference systems.
 
 ---
 
-## Native IFC 4.3 Export
+## Native IFC 4.3 Support
 
-Direct authoring to the international infrastructure BIM standard.
+Saikei Civil creates IFC 4.3 files as its native format—not as an export conversion. Infrastructure designs are IFC from initial creation, ensuring data integrity throughout the project lifecycle.
 
 ![IFC Export](/assets/images/Screenshots/VT-Align-IFC.png)
 
-| Feature | Description |
-|---------|-------------|
-| **IfcAlignment** | Full horizontal and vertical alignment export |
-| **IfcAlignmentHorizontal** | Tangent and curve segment definitions |
-| **IfcAlignmentVertical** | Grade and parabolic curve segments |
-| **Georeferenced Output** | IFC files include coordinate reference system data |
+### Supported IFC Entities
+
+| Entity | Implementation |
+|--------|----------------|
+| **IfcAlignment** | Complete alignment container with horizontal and vertical components |
+| **IfcAlignmentHorizontal** | Line and circular arc segments |
+| **IfcAlignmentVertical** | Constant gradient and parabolic arc segments |
+| **IfcAlignmentSegment** | Individual segment definitions with transition geometry |
+| **IfcCompositeCurve** | Geometric representation of alignment paths |
+| **IfcMapConversion** | Georeferencing with coordinate system transformations |
+| **IfcProjectedCRS** | EPSG-based coordinate reference system definitions |
+
+### Standards Compliance
+
+- Built on [IfcOpenShell](https://ifcopenshell.org), the open-source IFC toolkit
+- Targets IFC 4.3 (ISO 16739-1:2024) infrastructure schema
+- Output validated against IFC structure requirements
+- Designed for interoperability with buildingSMART-certified applications
+
+[View Architecture Documentation](https://github.com/saikeicivil/SaikeiCivil/tree/main/docs/architecture){: .btn .btn--inverse .btn--small}
 
 ---
 
