@@ -92,6 +92,12 @@ Saikei Civil is designed to work within the broader AEC ecosystem, not against i
 
 The goal isn't to replace existing workflows, but to provide an open-source option that speaks the same language as the rest of the industry.
 
+## Support Development
+
+Saikei Civil is developed full-time as a professional engineering effort. Sponsorship and grants enable continued progress on the roadmap and engagement with standards bodies.
+
+[Learn About Supporting](/support/){: .btn .btn--primary}
+
 ---
 
 <div class="text-center" markdown="1">

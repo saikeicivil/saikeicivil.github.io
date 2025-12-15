@@ -105,11 +105,17 @@ Saikei Civil targets **IFC 4.3** (ISO 16739-1:2024), the buildingSMART standard 
 
 ---
 
+## Accelerate Development
+
+Sponsorship and grants enable full-time engineering focus on this roadmap. Organizations supporting open infrastructure standards can help bring these capabilities to production faster.
+
+[Support the Project](/support/){: .btn .btn--primary}
+[Get Involved](/contribute/){: .btn .btn--inverse}
+
+---
+
 <div class="text-center" markdown="1">
 
-Interested in contributing?
-
-[Get Involved](/contribute/){: .btn .btn--primary .btn--large}
-[View on GitHub](https://github.com/saikeicivil/SaikeiCivil){: .btn .btn--inverse .btn--large}
+[View on GitHub](https://github.com/saikeicivil/SaikeiCivil){: .btn .btn--primary .btn--large}
 
 </div>

@@ -120,6 +120,6 @@ Saikei Civil (栽景) enables infrastructure design teams to work with open stan
 
 [About the Project](/about/){: .btn .btn--primary .btn--large}
 [Development Roadmap](/roadmap/){: .btn .btn--inverse .btn--large}
-[Contribute](/contribute/){: .btn .btn--inverse .btn--large}
+[Support the Project](/support/){: .btn .btn--inverse .btn--large}
 
 </div>
