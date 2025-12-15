@@ -4,108 +4,80 @@ title: "Development Roadmap"
 permalink: /roadmap/
 author_profile: false
 toc: true
-toc_label: "Phases"
+toc_label: "Development"
 toc_icon: "road"
 ---
 
-Saikei Civil follows a structured 16-sprint development roadmap divided into four phases. Development is currently in **Phase 2**.
+Saikei Civil is under active development with a capability-driven approach. Features are built to production quality before moving forward.
 
 ---
 
-### Phase 1: Foundation (Complete)
+## Current Capabilities
 
-The foundation phase established core infrastructure capabilities with production-ready code.
+Core infrastructure design tools ready for use today.
 
-### Completed Features
+| Capability | Status | Description |
+|------------|--------|-------------|
+| **Horizontal Alignments** | Complete | PI-based design, tangent/curve generation, IFC export |
+| **Vertical Profiles** | Complete | PVI-based profiles, parabolic curves, grade calculations |
+| **Cross-Sections** | Complete | AASHTO templates, lane/shoulder/slope definitions |
+| **Georeferencing** | Complete | CRS integration, PyProj support, sub-millimeter precision |
+| **Native IFC 4.3 Export** | Complete | IfcAlignment, georeferenced output |
+| **Terrain Integration** | Complete | Mesh sampling, elevation extraction |
 
-| Sprint | Focus | Deliverables |
-|--------|-------|--------------|
-| Sprint 1 | Horizontal Alignments | PI-based design, tangent/curve generation, IFC export |
-| Sprint 2 | Georeferencing | CRS integration, PyProj support, coordinate transforms |
-| Sprint 3 | Vertical Profiles | PVI-based profiles, parabolic curves, grade calculations |
-| Sprint 4 | Cross-Sections | AASHTO templates, lane/shoulder/slope definitions |
-
-### Key Metrics
-
+**Metrics:**
 - 30,000+ lines of production code
 - 107+ tests passing (100% pass rate)
-- Sub-millimeter georeferencing precision
 - IFC 4.3 compliance validated
 
 ---
 
-## Phase 2: Cross-Sections & Corridors (In Progress)
+## In Development
 
-Building complete 3D infrastructure models by combining alignments, profiles, and cross-sections.
+### Corridor Modeling
 
-**Focus:** Corridor Generation
+3D corridor generation combining horizontal alignments, vertical profiles, and cross-sections into complete roadway models.
 
-| Task | Status |
-|------|--------|
-| Corridor mesh generation | In Progress |
-| Blender visualization integration | Planned |
-| Multi-region corridor support | Planned |
-
-| Sprint | Focus | Description |
-|--------|-------|-------------|
-| Sprint 6 | Corridor Refinement | Transitions, superelevation, widening |
-| Sprint 7 | Surface Generation | Top/bottom surfaces, subgrade modeling |
-| Sprint 8 | Corridor Visualization | Real-time preview, section cuts |
+| Feature | Status |
+|---------|--------|
+| Corridor mesh generation | Active |
+| 3D visualization | Active |
+| Profile view overlay | Complete |
+| Station range selection | Complete |
 
 ---
 
-## Phase 3: Advanced Modeling
+## Planned
 
-Expanding beyond corridors to complete site modeling capabilities.
+### Site Modeling
 
-### Planned Features
+| Capability | Description |
+|------------|-------------|
+| **Earthwork** | Cut/fill calculations, mass haul diagrams |
+| **Drainage** | Pipe networks, inlet/outlet structures |
+| **Utilities** | Underground utilities, conflict detection |
+| **Grading** | Surface grading, parking lots, pads |
 
-| Sprint | Focus | Description |
-|--------|-------|-------------|
-| Sprint 9 | Earthwork | Cut/fill calculations, mass haul diagrams |
-| Sprint 10 | Drainage | Pipe networks, inlet/outlet structures |
-| Sprint 11 | Utilities | Underground utilities, conflict detection |
-| Sprint 12 | Grading | Surface grading, parking lots, pads |
+### Interoperability
 
----
-
-## Phase 4: Enterprise & Ecosystem
-
-**Sprints 13–16 — PLANNED**
-
-Professional features for team collaboration and ecosystem integration.
-
-### Planned Features
-
-| Sprint | Focus | Description |
-|--------|-------|-------------|
-| Sprint 13 | Collaboration | Multi-user editing, version control |
-| Sprint 14 | Import/Export | LandXML, Civil 3D, OpenRoads import |
-| Sprint 15 | Extensions API | Plugin system for custom tools |
-| Sprint 16 | Documentation | Comprehensive user guides, tutorials |
+| Capability | Description |
+|------------|-------------|
+| **LandXML Import** | Industry-standard alignment exchange |
+| **Civil 3D Import** | Autodesk Civil 3D file support |
+| **OpenRoads Import** | Bentley OpenRoads file support |
 
 ---
 
-## Project Statistics
+## Ecosystem
 
-<div class="stats-grid" markdown="0">
-  <div class="stat-box">
-    <span class="stat-number">30K+</span>
-    <span class="stat-label">Lines of Code</span>
-  </div>
-  <div class="stat-box">
-    <span class="stat-number">107+</span>
-    <span class="stat-label">Tests Passing</span>
-  </div>
-  <div class="stat-box">
-    <span class="stat-number">5</span>
-    <span class="stat-label">Sprints Complete</span>
-  </div>
-  <div class="stat-box">
-    <span class="stat-number">16</span>
-    <span class="stat-label">Total Sprints</span>
-  </div>
-</div>
+Saikei Civil is developed in collaboration with the open-source BIM community.
+
+| Connection | Description |
+|------------|-------------|
+| **OSArch Community** | Active participation in open-source architecture/engineering |
+| **Bonsai Collaboration** | Coordination with the native IFC building design tool |
+| **buildingSMART Engagement** | IFC 4.3 standards compliance and testing |
+| **IFC MasterClass** | Professional development through BIM Corner |
 
 ---
 
@@ -124,8 +96,9 @@ Professional features for team collaboration and ecosystem integration.
 
 <div class="text-center" markdown="1">
 
-Interested in contributing to the roadmap?
+Interested in contributing?
 
-[Get Involved](/contribute/){: .btn .btn--primary .btn--large} [View on GitHub](https://github.com/saikeicivil/SaikeiCivil){: .btn .btn--inverse .btn--large}
+[Get Involved](/contribute/){: .btn .btn--primary .btn--large}
+[View on GitHub](https://github.com/saikeicivil/SaikeiCivil){: .btn .btn--inverse .btn--large}
 
 </div>

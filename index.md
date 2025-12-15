@@ -99,11 +99,11 @@ Professional infrastructure modeling capabilities for horizontal civil engineeri
     </ul>
   </div>
   <div class="feature-box">
-    <h4>Volume Calculations</h4>
+    <h4>Corridor Modeling</h4>
     <ul>
-      <li>Cut/fill analysis</li>
-      <li>Mass haul diagrams</li>
-      <li>Quantity takeoffs</li>
+      <li>3D corridor generation</li>
+      <li>Terrain integration</li>
+      <li>Profile view overlay</li>
     </ul>
   </div>
 </div>

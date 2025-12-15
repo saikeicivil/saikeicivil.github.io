@@ -16,6 +16,8 @@ Saikei Civil provides production-ready infrastructure design capabilities built 
 
 Design road centerlines using industry-standard PI (Point of Intersection) methodology.
 
+![Horizontal Alignment - All Elements](/assets/images/Screenshots/HZ-Align-All.png)
+
 | Feature | Description |
 |---------|-------------|
 | **PI-Based Design** | Define alignments through control points with automatic tangent generation |
@@ -29,12 +31,14 @@ Design road centerlines using industry-standard PI (Point of Intersection) metho
 
 Create vertical alignments with grade-compliant vertical curves.
 
+![Vertical Alignment - Profile Viewer](/assets/images/Screenshots/VT-Align-Profile-Viewer.png)
+
 | Feature | Description |
 |---------|-------------|
 | **PVI-Based Design** | Vertical curves defined through Points of Vertical Intersection |
 | **Parabolic Curves** | AASHTO-compliant symmetric and asymmetric curves |
 | **Grade Calculations** | Automatic grade percentage computation |
-| **K-Value Support** | Design speed verification through rate of curvature |
+| **Terrain Tracing** | Sample elevations directly from terrain mesh |
 
 ---
 
@@ -42,12 +46,29 @@ Create vertical alignments with grade-compliant vertical curves.
 
 Define roadway typical sections with parametric components.
 
+![Cross-Section Viewer](/assets/images/Screenshots/XS-Viewer.png)
+
 | Feature | Description |
 |---------|-------------|
 | **AASHTO Templates** | Pre-configured lane and shoulder widths |
 | **Parametric Lanes** | Adjustable travel lanes with crown slopes |
 | **Shoulders** | Inside and outside shoulders with independent slopes |
 | **Side Slopes** | Cut and fill slope definitions |
+
+---
+
+## Corridor Modeling
+
+Generate 3D roadway corridors by combining alignments, profiles, and cross-sections.
+
+![Corridor 3D View](/assets/images/Screenshots/CORR-3D-View.png)
+
+| Feature | Description |
+|---------|-------------|
+| **3D Mesh Generation** | Complete corridor surfaces from design data |
+| **Station Range Selection** | Define corridor extents by station |
+| **Profile View Overlay** | Simultaneous plan and profile visualization |
+| **Terrain Integration** | Corridors follow existing ground |
 
 ---
 
@@ -68,6 +89,8 @@ Accurate real-world positioning through coordinate reference systems.
 
 Direct authoring to the international infrastructure BIM standard.
 
+![IFC Export](/assets/images/Screenshots/VT-Align-IFC.png)
+
 | Feature | Description |
 |---------|-------------|
 | **IfcAlignment** | Full horizontal and vertical alignment export |
@@ -83,13 +106,13 @@ Direct authoring to the international infrastructure BIM standard.
 
 A demonstration project showcasing Saikei Civil's alignment and cross-section capabilities for rural road infrastructure.
 
+![Corridor Generation](/assets/images/Screenshots/CORR-Generation.png)
+
 **Scope:**
 - 2.3 km horizontal alignment with compound curves
 - Vertical profile with 4% maximum grade
 - Rural road cross-section (24' travel way, 4' shoulders)
 - IFC 4.3 export with Idaho State Plane coordinates
-
-**Documentation:** In progress
 
 ---
 
