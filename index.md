@@ -124,6 +124,6 @@ Saikei Civil (栽景) enables infrastructure design teams to work with open stan
 
 ---
 
-*Developed by [Desert Springs Civil Engineering PLLC](https://linkedin.com/company/saikeicivil) · Meridian, Idaho*
+*Developed by [Desert Springs Civil Engineering PLLC](/company/) · Meridian, Idaho*
 
 </div>
