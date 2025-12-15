@@ -60,11 +60,14 @@ Core infrastructure design tools ready for use today.
 
 ### Interoperability
 
+Bridging existing workflows with open standards.
+
 | Capability | Description |
 |------------|-------------|
 | **LandXML Import** | Industry-standard alignment exchange |
 | **Civil 3D Import** | Autodesk Civil 3D file support |
 | **OpenRoads Import** | Bentley OpenRoads file support |
+| **IFC Round-Trip** | Import IFC files from other authoring tools |
 
 ---
 

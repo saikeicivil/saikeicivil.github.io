@@ -45,27 +45,13 @@ Infrastructure projects involve dozens of stakeholders using different software 
 
 ### The Native IFC Approach
 
-Traditional BIM workflows follow this pattern:
+Traditional BIM workflows treat IFC as an export format—a deliverable created at the end of the design process. This works, but information can be lost in translation.
 
-```
-.dwg → .ifc (export)
-```
-```
-.rvt → .ifc (export)
-```
-```
-.dgn → .ifc (export)
-```
+**Saikei Civil takes a different approach:**
 
-Data degrades at each conversion. The IFC file becomes an afterthought.
+By authoring directly in IFC 4.3, designs maintain full fidelity from first sketch to final deliverable. The IFC file isn't a conversion—it's the source.
 
-**Saikei Civil works differently:**
-
-```
-.ifc = Source of Truth
-```
-
-By building on **IFC 4.3**—the international standard for infrastructure BIM—the software creates files that work with any compliant application.
+This complements existing tools rather than replacing them. Teams can use Saikei Civil alongside their current software stack, with IFC serving as the common language for collaboration.
 
 ## Technology Stack
 
@@ -99,6 +85,12 @@ Saikei Civil is part of the [OSArch](https://osarch.org) (Open Source Architectu
 - **IfcOpenShell** — The open-source IFC toolkit
 
 These projects share a vision of an open, interoperable built environment.
+
+## Interoperability First
+
+Saikei Civil is designed to work within the broader AEC ecosystem, not against it. IFC 4.3 files created in Saikei Civil open in any compliant viewer or authoring tool—commercial or open-source.
+
+The goal isn't to replace existing workflows, but to provide an open-source option that speaks the same language as the rest of the industry.
 
 ---
 
