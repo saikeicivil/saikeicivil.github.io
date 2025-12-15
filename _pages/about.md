@@ -23,7 +23,7 @@ Built as a Blender extension, Saikei Civil creates **IFC 4.3** files as its nati
 
 **Saikei Civil** is developed by **Michael Yoder, PE** through **Desert Springs Civil Engineering PLLC** in Meridian, Idaho.
 
-Michael is a licensed Professional Engineer (Idaho, Indiana) with over 14 years of civil engineering experience. He holds a B.S. in Civil Engineering from Purdue University (2010).
+Michael is a licensed Professional Engineer (Idaho, Indiana) with over 14 years of civil engineering experience. He holds a B.S. in Civil Engineering from Purdue University (2010). A husband and father of four, he's also an avid rockhound who believes the best tools are built by people who use them.
 
 Saikei Civil is his full-time professional focus—not a side project.
 
