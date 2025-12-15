@@ -14,6 +14,37 @@ Saikei Civil is an open-source **native IFC authoring tool** for horizontal infr
 
 Built as a Blender extension, Saikei Civil creates **IFC 4.3** files as its native format—not as an export target. This native IFC approach means infrastructure designs are interoperable from initial creation.
 
+---
+
+## The Developer
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+<div style="flex: 1; min-width: 280px;" markdown="1">
+
+**Saikei Civil** is developed by **Michael Yoder, PE** through **Desert Springs Civil Engineering PLLC** in Meridian, Idaho.
+
+Michael is a licensed Professional Engineer (Idaho, Indiana) with over 14 years of civil engineering experience. He holds a B.S. in Civil Engineering from Purdue University (2010).
+
+Saikei Civil is his full-time professional focus—not a side project.
+
+</div>
+<div style="flex: 1; min-width: 280px;" markdown="1">
+
+| Experience | Focus |
+|------------|-------|
+| **Bureau of Reclamation** | Federal water infrastructure |
+| **HDR** | Transportation consulting |
+| **Regional Firms** | Roadway design, water projects, construction inspection |
+
+</div>
+</div>
+
+This breadth of experience—from construction inspection to federal infrastructure—informs Saikei Civil's design as a practical tool for working engineers.
+
+[Connect on LinkedIn](https://linkedin.com/company/saikeicivil){: .btn .btn--inverse .btn--small}
+
+---
+
 ## The Name
 
 **Saikei** (栽景) is the Japanese art of creating miniature planted landscapes—tray landscapes depicting natural scenery. The name complements Bonsai's focus on individual trees.
@@ -25,6 +56,8 @@ Together, Bonsai and Saikei represent a complete approach to open-source BIM:
 The word combines:
 - 栽 (*sai*) — to plant, to cultivate
 - 景 (*kei*) — scenery, landscape
+
+---
 
 ## Why Open Standards?
 
@@ -53,6 +86,8 @@ By authoring directly in IFC 4.3, designs maintain full fidelity from first sket
 
 This complements existing tools rather than replacing them. Teams can use Saikei Civil alongside their current software stack, with IFC serving as the common language for collaboration.
 
+---
+
 ## Technology Stack
 
 | Component | Technology |
@@ -63,19 +98,7 @@ This complements existing tools rather than replacing them. Teams can use Saikei
 | **Language** | Python 3.13+ |
 | **License** | GPL v3 |
 
-## The Developer
-
-**Saikei Civil** is developed by **Michael Yoder, PE** through **Desert Springs Civil Engineering PLLC** in Meridian, Idaho.
-
-Michael is a licensed Professional Engineer (Idaho, Indiana) with over 14 years of civil engineering experience. He holds a B.S. in Civil Engineering from Purdue University (2010) and has worked across multiple sectors of the industry:
-
-| Experience | Focus |
-|------------|-------|
-| **Bureau of Reclamation** | Federal water infrastructure projects |
-| **HDR** | Transportation and infrastructure consulting |
-| **Regional Firms** | Roadway design, water projects, construction inspection |
-
-This breadth of experience—from construction inspection to federal infrastructure—informs Saikei Civil's design as a practical tool for working engineers.
+---
 
 ## Part of the OSArch Ecosystem
 
@@ -92,11 +115,13 @@ Saikei Civil is designed to work within the broader AEC ecosystem, not against i
 
 The goal isn't to replace existing workflows, but to provide an open-source option that speaks the same language as the rest of the industry.
 
+---
+
 ## Support Development
 
 Saikei Civil is developed full-time as a professional engineering effort. Sponsorship and grants enable continued progress on the roadmap and engagement with standards bodies.
 
-[Learn About Supporting](/support/){: .btn .btn--primary}
+[Learn About Supporting](/support/){: .btn .btn--primary .btn--large}
 
 ---
 
