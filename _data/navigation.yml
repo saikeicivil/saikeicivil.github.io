@@ -8,6 +8,8 @@ main:
     url: /demo/
   - title: "Roadmap"
     url: /roadmap/
+  - title: "Contribute"
+    url: /contribute/
   - title: "Support"
     url: /support/
   - title: "GitHub"

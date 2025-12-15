@@ -5,7 +5,7 @@ title                    : "Saikei Civil"
 title_separator          : "—"
 subtitle                 : "Open-Source Infrastructure Design Platform"
 name                     : "Desert Springs Civil Engineering PLLC"
-description              : "Open-source civil engineering BIM software creating native IFC 4.3 files for roads, alignments, and infrastructure design."
+description              : "Open-source native IFC 4.3 infrastructure design software. True interoperability for roads, alignments, and civil engineering projects built on open standards."
 url                      : "https://saikeicivil.org"
 baseurl                  : ""
 repository               : "saikeicivil/saikeicivil.github.io"
@@ -17,7 +17,7 @@ masthead_title           : "Saikei Civil"
 author:
   name             : "Michael Yoder, PE"
   avatar           : # path of avatar image
-  bio              : "Civil engineer developing open-source infrastructure BIM tools."
+  bio              : "PE developing open-source native IFC infrastructure design tools."
   location         : "Meridian, Idaho"
   email            : 
   links:
