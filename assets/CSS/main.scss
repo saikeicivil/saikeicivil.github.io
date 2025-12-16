@@ -454,16 +454,79 @@ h2.text-center {
   background: rgba($saikei-green, 0.03);
   border: 1px solid $border-color;
   border-radius: 8px;
-  
+
   .toc__title {
     color: $saikei-green;
   }
-  
+
   a {
     color: $text-color;
-    
+
     &:hover {
       color: $saikei-green;
     }
   }
+}
+
+/* ==========================================================================
+   Typography - Readable sizing (matching Desert Springs)
+   ========================================================================== */
+
+html {
+  font-size: 18px;
+}
+
+$text-color: #2d3e2d !default;
+$muted-text-color: #3d4d3d !default;
+
+.page__content {
+  font-size: 1em;
+
+  p, li {
+    line-height: 1.7;
+  }
+}
+
+.page__title {
+  font-size: 1.8em;
+}
+
+.archive__item-title {
+  font-size: 1em;
+}
+
+/* Balanced heading spacing */
+.page__content {
+  h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  h3 {
+    margin-top: 1.25em;
+    margin-bottom: 0.4em;
+  }
+
+  h4 {
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+  }
+
+  p {
+    margin-bottom: 0.75em;
+  }
+
+  ul, ol {
+    margin-top: 0.4em;
+    margin-bottom: 0.75em;
+  }
+
+  li {
+    margin-bottom: 0.25em;
+  }
+}
+
+/* Better section dividers */
+hr {
+  margin: 1.5em 0;
 }

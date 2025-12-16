@@ -8,13 +8,13 @@ toc_label: "Support Options"
 toc_icon: "hand-holding-heart"
 ---
 
-Saikei Civil is developed full-time by Michael Yoder, PE, as the primary project of Desert Springs Civil Engineering PLLC. Your support directly funds continued development of open-source infrastructure design tools.
+Saikei Civil is developed by Desert Springs Civil Engineering PLLC as part of our commitment to open-source infrastructure design tools. Your support directly funds continued development.
 
 ---
 
 ## Why Support Matters
 
-Unlike most open-source projects maintained as side projects, Saikei Civil receives full-time professional engineering attention. This means:
+Saikei Civil receives dedicated professional engineering attention. This means:
 
 - **Faster development cycles** — dedicated focus on the roadmap
 - **Professional-grade code** — engineering rigor applied to every feature
@@ -62,7 +62,7 @@ Become a founding sponsor and support the development of open infrastructure des
 
 ## Ready to Support Open Infrastructure?
 
-Your contribution directly enables full-time development of professional-grade, open-source civil engineering tools.
+Your contribution directly enables continued development of professional-grade, open-source civil engineering tools.
 
 [Contact Us](mailto:hello@saikeicivil.org){: .btn .btn--primary .btn--large}
 [View the Roadmap](/roadmap/){: .btn .btn--inverse .btn--large}

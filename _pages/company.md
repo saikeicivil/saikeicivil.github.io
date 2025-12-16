@@ -81,11 +81,11 @@ The consulting practice informs the software—and the software serves practitio
 
 Most civil engineering software is built by software companies, then sold to engineers. We're doing it the other way around.
 
-Desert Springs Civil brings real project experience to every line of code. When Saikei Civil calculates a vertical curve or exports an IfcAlignment, it's built by someone who's staked alignments in the field and reviewed shop drawings at 2am.
+Desert Springs Civil brings real project experience to every line of code. When Saikei Civil calculates a vertical curve or exports an IfcAlignment, it's built by someone who's staked alignments in the field.
 
 **Open standards benefit everyone.**
 
-Proprietary formats lock data in silos. Open standards—like IFC 4.3—let designs travel between applications and remain accessible across decades-long asset lifecycles. We build on open standards because that's what's best for the industry.
+ Open standards—like IFC 4.3—let designs travel between applications and remain accessible across decades-long asset lifecycles. 
 
 ---
 
@@ -107,7 +107,7 @@ Proprietary formats lock data in silos. Open standards—like IFC 4.3—let desi
 
 ## Explore Saikei Civil
 
-Our flagship open-source project for infrastructure design.
+Open-source infrastructure design software.
 
 [View Capabilities](/demo/){: .btn .btn--primary .btn--large}
 [Development Roadmap](/roadmap/){: .btn .btn--inverse .btn--large}

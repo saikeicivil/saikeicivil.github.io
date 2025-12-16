@@ -25,7 +25,7 @@ Built as a Blender extension, Saikei Civil creates **IFC 4.3** files as its nati
 
 Michael is a licensed Professional Engineer (Idaho, Indiana) with over 14 years of civil engineering experience. He holds a B.S. in Civil Engineering from Purdue University (2010). A husband and father of four, he's also an avid rockhound who believes the best tools are built by people who use them.
 
-Saikei Civil is his full-time professional focus—not a side project.
+Saikei Civil represents a core focus of Desert Springs Civil Engineering.
 
 </div>
 <div style="flex: 1; min-width: 280px;" markdown="1">
@@ -119,7 +119,7 @@ The goal isn't to replace existing workflows, but to provide an open-source opti
 
 ## Support Development
 
-Saikei Civil is developed full-time as a professional engineering effort. Sponsorship and grants enable continued progress on the roadmap and engagement with standards bodies.
+Saikei Civil is developed as a professional engineering effort. Sponsorship and grants enable continued progress on the roadmap and engagement with standards bodies.
 
 [Learn About Supporting](/support/){: .btn .btn--primary .btn--large}
 
