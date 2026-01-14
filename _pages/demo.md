@@ -123,10 +123,10 @@ A demonstration project showcasing Saikei Civil's alignment and cross-section ca
 ![Corridor Generation](/assets/images/Screenshots/CORR-Generation.png)
 
 **Scope:**
-- 2.3 km horizontal alignment with compound curves
+- 1.0 km horizontal alignment with compound curves
 - Vertical profile with 4% maximum grade
 - Rural road cross-section (24' travel way, 4' shoulders)
-- IFC 4.3 export with Idaho State Plane coordinates
+- Geolocated to Idaho State Plane coordinates
 
 ---
 
