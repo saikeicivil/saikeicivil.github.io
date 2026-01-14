@@ -21,7 +21,7 @@ Core infrastructure design tools ready for use today.
 | **Horizontal Alignments** | Complete | PI-based design, tangent/curve generation, IFC export |
 | **Vertical Profiles** | Complete | PVI-based profiles, parabolic curves, grade calculations |
 | **Cross-Sections** | Complete | AASHTO templates, lane/shoulder/slope definitions |
-| **Georeferencing** | Complete | CRS integration, PyProj support, sub-millimeter precision |
+| **Georeferencing** | Complete | CRS integration, PyProj support, validated accuracy for projects up to 1km in length |
 | **Native IFC 4.3 Export** | Complete | IfcAlignment, georeferenced output |
 | **Terrain Integration** | Complete | Mesh sampling, elevation extraction |
 
