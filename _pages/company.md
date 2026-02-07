@@ -93,7 +93,7 @@ Desert Springs Civil brings real project experience to every line of code. When 
 
 | | |
 |---|---|
-| **Phone** | 208-271-8981 |
+| **Phone** | 574-707-2494 |
 | **Email** | [myoder@desertspringscivil.com](mailto:myoder@desertspringscivil.com) |
 | **Location** | Meridian, Idaho |
 | **Hours** | Monday–Friday, 8am–5pm MT |
