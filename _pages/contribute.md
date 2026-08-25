@@ -8,7 +8,7 @@ toc_label: "Ways to Help"
 toc_icon: "hands-helping"
 ---
 
-Saikei Civil is developed openly and welcomes contributions from civil engineers, software developers, and anyone passionate about open infrastructure tools.
+This work is contributed upstream into Bonsai and IfcOpenShell, so that is where contributions go too. If you are a civil engineer or a developer who wants native-IFC infrastructure authoring to exist, those projects are the place to help.
 
 ---
 
@@ -25,7 +25,7 @@ Domain expertise is essential for building tools that address real-world project
 - Review AASHTO/ASCE compliance
 - Provide feedback on UI/UX from a practitioner's perspective
 
-**Get started:** [Open a feature request](https://github.com/saikeicivil/SaikeiCivil/issues/new?template=feature_request.md)
+**Get started:** [Open an issue on IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell/issues/new/choose), or raise it on the [OSArch community forum](https://community.osarch.org).
 
 ---
 
@@ -47,7 +47,7 @@ The codebase is Python-based, built on Blender and IfcOpenShell.
 - PyProj for coordinate systems
 - NumPy for calculations
 
-**Get started:** [View open issues](https://github.com/saikeicivil/SaikeiCivil/issues)
+**Get started:** [Browse open IfcOpenShell issues](https://github.com/IfcOpenShell/IfcOpenShell/issues), or review [#9304](https://github.com/IfcOpenShell/IfcOpenShell/pull/9304), the alignment authoring foundation currently under review.
 
 ---
 
@@ -55,7 +55,7 @@ The codebase is Python-based, built on Blender and IfcOpenShell.
 
 | Platform | Link | Purpose |
 |----------|------|---------|
-| **GitHub** | [saikeicivil/SaikeiCivil](https://github.com/saikeicivil/SaikeiCivil) | Code, issues, discussions |
+| **GitHub** | [IfcOpenShell/IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell) | Code, issues, pull requests |
 | **LinkedIn** | [/company/saikeicivil](https://linkedin.com/company/saikeicivil) | Updates and announcements |
 | **OSArch** | [community.osarch.org](https://community.osarch.org) | OpenBIM community discussions |
 
@@ -76,27 +76,15 @@ All contributors are expected to:
 ## Getting Started with Development
 
 ### Quick Setup
-```bash
-# Clone the repository
-git clone https://github.com/saikeicivil/SaikeiCivil.git
 
-# Navigate to the extension folder
-cd SaikeiCivil/saikei_civil
-
-# Create a symlink in Blender's extensions folder
-# (See docs for OS-specific instructions)
-
-# Run tests
-python -m pytest tests/
-```
+Bonsai is developed inside the [IfcOpenShell repository](https://github.com/IfcOpenShell/IfcOpenShell),
+under `src/bonsai`. Build and run it from source by following the
+[Bonsai documentation](https://docs.bonsaibim.org/), and ask in the
+[OSArch community](https://community.osarch.org) if you get stuck.
 
 ### Development Resources
 
-**Project Documentation:**
-- [Architecture Documentation](https://github.com/saikeicivil/SaikeiCivil/tree/main/docs/architecture)
-- [Native IFC Implementation](https://github.com/saikeicivil/SaikeiCivil/tree/main/docs/architecture/native-ifc-docs)
-
-**External References:**
+**References:**
 - [IFC 4.3 Specification](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/) (buildingSMART)
 - [IfcOpenShell Documentation](https://ifcopenshell.org)
 - [Blender Extension API](https://docs.blender.org/manual/en/latest/advanced/extensions/)
@@ -105,7 +93,7 @@ python -m pytest tests/
 
 <div class="text-center" markdown="1">
 
-[View Open Issues](https://github.com/saikeicivil/SaikeiCivil/issues){: .btn .btn--primary .btn--large}
-[Fork the Repository](https://github.com/saikeicivil/SaikeiCivil/fork){: .btn .btn--inverse .btn--large}
+[IfcOpenShell Issues](https://github.com/IfcOpenShell/IfcOpenShell/issues){: .btn .btn--primary .btn--large}
+[OSArch Community](https://community.osarch.org){: .btn .btn--inverse .btn--large}
 
 </div>

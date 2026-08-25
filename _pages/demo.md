@@ -110,8 +110,6 @@ Saikei Civil creates IFC 4.3 files as its native format—not as an export conve
 - Output validated against IFC structure requirements
 - Designed for interoperability with buildingSMART-certified applications
 
-[View Architecture Documentation](https://github.com/saikeicivil/SaikeiCivil/tree/main/docs/architecture){: .btn .btn--inverse .btn--small}
-
 ---
 
 ## Demonstration Project
@@ -132,11 +130,11 @@ A demonstration project showcasing Saikei Civil's alignment and cross-section ca
 
 <div class="text-center" markdown="1">
 
-## Get Started
+## Where this work lives
 
-Download Saikei Civil and explore these capabilities in your own projects.
+These capabilities are being contributed upstream rather than shipped separately.
 
-[Download Latest Release](https://github.com/saikeicivil/SaikeiCivil/releases/latest){: .btn .btn--primary .btn--large}
-[View Source Code](https://github.com/saikeicivil/SaikeiCivil){: .btn .btn--inverse .btn--large}
+[#9304 — alignment authoring for Bonsai](https://github.com/IfcOpenShell/IfcOpenShell/pull/9304){: .btn .btn--primary .btn--large}
+[Get Involved](/contribute/){: .btn .btn--inverse .btn--large}
 
 </div>

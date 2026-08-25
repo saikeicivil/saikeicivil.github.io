@@ -3,9 +3,9 @@
 locale                   : "en-US"
 title                    : "Saikei Civil"
 title_separator          : "—"
-subtitle                 : "Open-Source Infrastructure Design Platform"
-name                     : "Desert Springs Civil Engineering PLLC"
-description              : "Open-source native IFC 4.3 infrastructure design software. True interoperability for roads, alignments, and civil engineering projects built on open standards."
+subtitle                 : "Native-IFC infrastructure authoring, contributed upstream"
+name                     : "Saikei Civil"
+description              : "Saikei Civil is the name Michael Yoder, PE gives to his contributions extending native-IFC authoring to civil infrastructure. The work is contributed upstream into Bonsai and IfcOpenShell under those projects' licenses."
 url                      : "https://saikeicivil.org"
 baseurl                  : ""
 repository               : "saikeicivil/saikeicivil.github.io"
@@ -17,13 +17,10 @@ masthead_title           : "Saikei Civil"
 author:
   name             : "Michael Yoder, PE"
   avatar           : # path of avatar image
-  bio              : "PE developing open-source native IFC infrastructure design tools."
+  bio              : "PE contributing native-IFC infrastructure authoring upstream to Bonsai and IfcOpenShell."
   location         : "Meridian, Idaho"
   email            : 
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/saikeicivil/SaikeiCivil"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/company/saikeicivil"
@@ -31,9 +28,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/saikeicivil/SaikeiCivil"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/company/saikeicivil"
@@ -50,6 +44,7 @@ minimal_mistakes_skin    : "default" # We'll override with custom colors
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache

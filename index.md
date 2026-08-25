@@ -6,16 +6,11 @@ header:
   overlay_color: "#2d5a27"
   overlay_filter: "0.6"
   overlay_image: /assets/images/hero-bg.svg
-  actions:
-    - label: "View on GitHub"
-      url: "https://github.com/saikeicivil/SaikeiCivil"
-    - label: "Download"
-      url: "https://github.com/saikeicivil/SaikeiCivil/releases/latest"
 excerpt: >
-  Open-source native IFC infrastructure design software for roads, alignments, and civil engineering projects. Built on Blender and IFC 4.3 for true interoperability.
+  Native-IFC authoring for roads, alignments, and corridors — contributed upstream into Bonsai and IfcOpenShell.
 
 intro:
-  - excerpt: '**30,000+ lines of code** · **107+ tests passing** · **Native IFC 4.3** · **Phase 1 Complete**'
+  - excerpt: '**Native IFC 4.3** · **Built on Blender and IfcOpenShell** · **Contributed upstream**'
 
 feature_row:
   - image_path: /assets/images/feature-crosssection.svg
@@ -40,9 +35,9 @@ feature_row:
 
 <div class="text-center" markdown="1">
 
-## Complete Infrastructure Design Suite
+## What the work covers
 
-Professional infrastructure modeling capabilities for horizontal civil engineering projects.
+Infrastructure modelling capability for horizontal civil engineering, authored natively in IFC.
 
 </div>
 
@@ -112,18 +107,26 @@ Professional infrastructure modeling capabilities for horizontal civil engineeri
 
 <div class="text-center" markdown="1">
 
-## About Saikei Civil
+## What Saikei Civil is
 
-Saikei Civil (栽景) enables infrastructure design teams to work with open standards from day one. Built natively on IFC 4.3, designs travel between applications and remain accessible throughout the asset lifecycle.
+Saikei Civil (栽景) is the name I give to my own contributions extending native-IFC authoring to civil infrastructure. It is not a standalone product, and no party holds exclusive rights in it. The work is contributed upstream into [Bonsai](https://bonsaibim.org) and [IfcOpenShell](https://ifcopenshell.org), and lives under those projects' licenses.
 
-**30,000+ lines of production-tested code** serving firms of all sizes, academic institutions, and practitioners worldwide.
+Built natively on IFC 4.3, designs travel between applications and remain accessible throughout the asset lifecycle.
+
+### Upstream
+
+<ul style="list-style:none;padding:0;font-size:0.95rem;">
+  <li><a href="https://github.com/IfcOpenShell/IfcOpenShell/pull/9304">#9304 — horizontal alignment authoring foundation for Bonsai, plus alignment API fixes</a> · opened August 15, 2026</li>
+  <li><a href="https://github.com/IfcOpenShell/IfcOpenShell/pull/9305">#9305 — Windows build artifact collection for underscore-prefixed plugin DLLs</a> · opened August 15, 2026</li>
+</ul>
+
+This is my **Google Summer of Code 2026** project.
 
 [About the Project](/about/){: .btn .btn--primary .btn--large}
-[Development Roadmap](/roadmap/){: .btn .btn--inverse .btn--large}
-[Support the Project](/support/){: .btn .btn--inverse .btn--large}
+[Capabilities](/demo/){: .btn .btn--inverse .btn--large}
 
 ---
 
-*Developed by [Desert Springs Civil Engineering PLLC](/company/) · Meridian, Idaho*
+*Michael Yoder, PE · Meridian, Idaho*
 
 </div>

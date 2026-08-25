@@ -6,13 +6,7 @@ main:
     url: /about/
   - title: "Capabilities"
     url: /demo/
-  - title: "Roadmap"
-    url: /roadmap/
-  - title: "Support"
-    url: /support/
   - title: "Contribute"
     url: /contribute/
   - title: "Desert Springs"
     url: https://desertspringscivil.com
-  - title: "GitHub"
-    url: https://github.com/saikeicivil/SaikeiCivil
