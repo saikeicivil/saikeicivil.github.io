@@ -21,16 +21,10 @@ author:
   location         : "Meridian, Idaho"
   email            : 
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/company/saikeicivil"
 
 # Site Footer
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/company/saikeicivil"
 
 # Reading Files
 include:

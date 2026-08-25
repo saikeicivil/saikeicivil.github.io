@@ -39,8 +39,6 @@ I'm Michael Yoder, PE — licensed in Idaho, with 16+ years of civil engineering
 
 That breadth — from construction inspection to federal infrastructure — is what shapes the work into something practical for engineers who do the job.
 
-[Connect on LinkedIn](https://linkedin.com/company/saikeicivil){: .btn .btn--inverse .btn--small}
-
 ---
 
 ## The Name

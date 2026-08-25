@@ -56,7 +56,6 @@ The codebase is Python-based, built on Blender and IfcOpenShell.
 | Platform | Link | Purpose |
 |----------|------|---------|
 | **GitHub** | [IfcOpenShell/IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell) | Code, issues, pull requests |
-| **LinkedIn** | [/company/saikeicivil](https://linkedin.com/company/saikeicivil) | Updates and announcements |
 | **OSArch** | [community.osarch.org](https://community.osarch.org) | OpenBIM community discussions |
 
 ---
